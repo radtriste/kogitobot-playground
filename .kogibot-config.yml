@@ -1,0 +1,29 @@
+reviewers:
+  defaults:
+  - spolti
+  - radtriste
+  matching_paths:
+  - paths:
+    - .kogito-config.yml
+    values:
+    - radtriste
+  - paths:
+    - README.md
+    values:
+    - spolti
+
+comments:
+  first_time_contribute: Welcome to the Kogito Community!. Please make sure you've read the [contributors' guide](https://github.com/kiegroup/kogito-operator/blob/main/README.md#contributing-to-the-kogito-operator)
+
+labels:
+  defaults:
+  - needs_review
+  matching_paths:
+  - paths:
+    - README.md
+    values:
+    - readme
+  - paths:
+    - .kogibot-config.yml
+    values:
+    - kogibot
