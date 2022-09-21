@@ -11,6 +11,7 @@ reviewers:
     - README.md
     values:
     - spolti
+    - anybody
 
 comments:
   first_time_contribute: Welcome to the Kogito Community!. Please make sure you've read the [contributors' guide](https://github.com/kiegroup/kogito-operator/blob/main/README.md#contributing-to-the-kogito-operator)
