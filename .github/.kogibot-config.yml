@@ -5,6 +5,7 @@ reviewers:
   matching_paths:
   - paths:
     - .kogito-config.yml
+    - src/*
     values:
     - radtriste
   - paths:
