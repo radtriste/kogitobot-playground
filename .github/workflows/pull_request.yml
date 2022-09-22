@@ -1,4 +1,4 @@
-name: Kogibot CI
+name: Kogibot playground
 
 on: pull_request
 jobs:
@@ -11,6 +11,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
+    - name: Debug
+      run: echo "bonjour"
     - name: Test with Maven
       run: mvn clean install
   
